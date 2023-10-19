@@ -1,0 +1,7 @@
+.retournable {
+    width: 200px; /* Largeur de la div */
+    height: 200px; /* Hauteur de la div */
+    background-color: #3498db; /* Couleur de fond de la div */
+    transform-style: preserve-3d; /* Préserve la perspective */
+    transform: rotateY(180deg); /* Effectue une rotation de 180 degrés autour de l'axe Y */
+}

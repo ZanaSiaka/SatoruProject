@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI';
+    width: 100vw;
+    height: 100vh;
+    background-color:azure;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.principal{
+    text-align: center;
+}
+
+.navbar{
+    position: sticky;
+    margin-top: 0;
+    margin-bottom: 2%;
+    width: 100%;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    background-color: #18BDFC;
+    height: 60px;
+    box-shadow: 0px 5px 25px #f3af66;
+
+}
+
+.navlink{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navlink2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: 350;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 15%;
+    
+}
+
+.navlink2 li{
+    list-style-type: none;
+    margin-right: 15%;
+    
+}
+
+.navlink2 li a{
+    color: azure;
+    transition-duration: 5s;
+    transition-property: all;
+    
+}
+
+.navlink2 .accueil{
+    color: #F88204;
+    transition-property: border-bottom;
+    transition-duration: 0.8s;
+    border-bottom: none;
+
+}
+
+.navlink2 .accueil:hover{
+    border-bottom: 5px solid #F88204;
+}
+
+.navlink2 .galerie{
+    color: azure;
+}
+
+.navlink2 .galerie:hover{
+    border-bottom:5px solid azure ;
+    transition-duration: 0.8s;
+}
+
+.navlink img{
+    margin-left: 20%;
+}
+
+#logo{
+    margin-left: 10%;
+}
+
+h1{
+    margin-bottom: 1%;
+    text-transform: uppercase;
+    color: #18BDFC;
+    font-size: 2em;
+    font-family: RAMEN ICHIKARU;
+
+}
+
+p{
+    font-size: 1.2em;
+    color: #000000;
+    margin-bottom: 1%;
+}
+
+section{
+    align-items: center;
+    justify-content: center;
+}
+
+
+.liste{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+ol{
+    list-style-type: decimal;
+}
+
+ol li{
+    text-align: center;
+    list-style-position: inside;
+    font-size: 1.3em;
+}
+
+ol li{
+    margin-top: 0.8%;
+}
+
+hr{
+    color: #F88204;
+    background-color: #F88204;
+    box-shadow: 0px 3px 20px #18BDFC;
+}
+
+video{
+    width: 50%;
+    height: 33%;
+    border-radius: 2%;
+    margin-top: 2%;
+    align-items: center;
+    transition-property: all;
+    transition: 0.8s;
+    box-shadow: #18BDFC 0px 0px 25px;
+}
+
+video:hover{
+    width: 60%;
+    height: 50%;
+}
+
+button{
+    transition-property: background-color, color;
+    transition-duration: 1s;
+    margin-top: 2%;
+    background-color: azure;
+    color: #18BDFC;
+    border: 2px solid #18BDFC;
+    border-radius: 10px;
+    padding: 1%;
+    font-size: medium;
+    display: block;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+ 
+button:hover{
+    background-color: #18BDFC;
+    color: azure;
+    border: 2px solid #18BDFC;
+}
+
+button::after{
+    transform: scaleX(0);
+}
+
+button:hover::after{
+    transform: scaleX(1);
+}
+
+.bouton{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 10%;
+}
+
+ol img{
+    margin-bottom: 5%;
+    border: none;
+    border-radius: 14px;
+}
+
+
+

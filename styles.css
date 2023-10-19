@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    perspective: 800px;
+}
+
+.page {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.page:hover {
+    transform: rotateY(90deg);
+}
+
+.content {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(52, 152, 219, 0.9);
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    backface-visibility: hidden;
+}
